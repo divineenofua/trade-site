@@ -7,6 +7,10 @@ function showMenu(){
 function hideMenu(){
     navBar.style.right = "-2000px";
 }
+// slide-up script
+$('.scroll-up-btn').click(function(){
+    $('html').animate({scrollTop: 0});
+});
 
 //owl carousel script
 $('.carousel').owlCarousel({

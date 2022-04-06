@@ -32,7 +32,9 @@ img {
 }
 .nav-brand {
   padding: 19.2px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color:rgb(43, 39, 39);
+  position: fixed;
+
 }
 .container {
   display: flex;
@@ -68,8 +70,9 @@ nav .fa {
 }
 .textbox {
   text-transform: capitalize;
-  margin: 32px;
+  margin: 100px 32px;
   display: block;
+
 }
 .textbox h2 {
   color: var(--white);
@@ -108,6 +111,53 @@ nav .fa {
   border-radius: 6px;
   transition: all 1s ease;
 }
+
+
+form{
+  padding: 10px 20px ;
+  margin: 0;
+}
+form .head{
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 100px;
+}
+form label{
+  display: block;
+  padding: 5px 0;
+  font-size: 20px;
+  color: rgb(136, 133, 133);
+}
+form input{
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  outline: none;
+  border:1px solid rgb(136, 133, 133);
+  font-size: 15px;
+}
+form a{
+  float:right;
+  padding: 10px;
+  color: rgb(224, 19, 19);
+  font-size: 19px;
+} 
+form button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  background: rgb(31, 31, 66);
+  color: var(--white);
+}
+set{
+  margin:0 170px;
+  font-size: 22px;
+  padding: 20px 0;
+  
+}
+
+
+
 /* ABOUT SECTION STYLING */
 .about {
   padding: 10px;
@@ -173,6 +223,30 @@ nav .fa {
   font-size: 20px;
   text-align: center;
   padding: 10px 0;
+}
+
+.scroll-up-btn {
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: var(--dark);
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: var(--white);
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.scroll-up-btn.show {
+  opacity: 1;
+  pointer-events: auto;
+  bottom: 30px;
 }
 /* HISTORY SECTION */
 .history-content {
@@ -418,6 +492,53 @@ nav .fa {
   padding-top: 25vh;
   font-size: 30px;
 }
+.contact-links a:first-of-type{
+  margin: 30px 0;
+  color:blue ;
+  font-size: 25px;
+}
+.contact-links a:nth-of-type(2){
+  margin: 30px 0;
+  color:rgb(77, 77, 245) ;
+  font-size: 25px;
+}
+.contact-links a:nth-of-type(3){
+  margin: 30px 0;
+  color:rgb(160, 47, 64);
+  font-size: 25px;
+}
+.contact-links a:last-of-type{
+  margin: 30px 0;
+  color:red ;
+  font-size: 25px;
+}
+
+
+
+
+.contact-container{
+  padding: 0 20px;
+}
+.contact-container p{
+  font-weight: 700;
+  font-size: 20px;
+}
+.contact-main{
+  padding: 30px;
+  display: inline;
+}
+.cont-logo{
+  width: 30%;
+}
+footer{
+  background-color:rgb(14, 14, 39) ;
+  text-align: center;
+  height: 50px;
+  color: #555;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
 
 @media (max-width: 700px) {
   .header {
@@ -472,6 +593,7 @@ nav .fa {
     padding: 10px;
     opacity: 0.7;
     font-size: 16px;
+    justify-content: center;
   }
   .text2 div {
     padding-bottom: 30px;
@@ -539,5 +661,9 @@ nav .fa {
     align-items: center;
     padding: 0 60px;
     
+}
+.cont-logo{
+  width: 70%;
+padding-left: 0;
 }
 }
