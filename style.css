@@ -34,6 +34,7 @@ img {
   padding: 19.2px;
   background-color:rgb(43, 39, 39);
   position: fixed;
+  z-index: 999;
 
 }
 .container {
@@ -70,7 +71,7 @@ nav .fa {
 }
 .textbox {
   text-transform: capitalize;
-  margin: 100px 32px;
+  margin: 150px 70px;
   display: block;
 
 }
