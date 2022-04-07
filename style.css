@@ -669,8 +669,25 @@ padding-left: 0;
 }
 }
 @media (max-width: 500px) {
+  .header {
+    object-fit: cover;
+    overflow: hidden;
+  }
   .textbox .button {
-    padding: 20px 20px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+  }
+  .textbox {
+    text-transform: capitalize;
+    margin: 150px 10px;
+    display: block;
+  
+  }
+  .textbox h2 {
+    color: var(--white);
+    font-size: 40px;
+    font-family: var(--Poppins);
+    letter-spacing: none;
   }
 }
