@@ -690,4 +690,17 @@ padding-left: 0;
     font-family: var(--Poppins);
     letter-spacing: none;
   }
+  .t2 p{
+    color: var(--white);
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 22px;
+  }
+  .testimonies{
+    display: block;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: center;
+    
+}
 }
