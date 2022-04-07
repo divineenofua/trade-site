@@ -541,7 +541,7 @@ footer{
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 690px) {
   .header {
     object-fit: cover;
     overflow: hidden;
@@ -667,4 +667,10 @@ footer{
   width: 70%;
 padding-left: 0;
 }
+}
+@media (max-width: 500px) {
+  .textbox .button {
+    padding: 20px 20px;
+    display: inline-block;
+  }
 }
