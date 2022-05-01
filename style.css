@@ -464,13 +464,19 @@ set{
   padding-top: 30px;
 }
  .test1 img{
-   border-radius: 50%;
-   overflow: hidden;
-   
-   
+  border-radius: 35px;
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  object-fit: cover;
 }
 .carousel{
   padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .card .test1{
   display: flex;
