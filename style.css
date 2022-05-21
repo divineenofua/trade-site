@@ -464,7 +464,7 @@ set{
   padding-top: 30px;
 }
  .test1 img{
-  border-radius: 35px;
+  border-radius: 50%;
   height: 70px;
   width: 70px;
   overflow: hidden;
@@ -707,6 +707,5 @@ padding-left: 0;
     align-items: center;
     padding: 0 30px;
     justify-content: center;
-    
 }
 }
